@@ -1,0 +1,14 @@
+<!DOCTYPE html>
+<html
+        lang="ko"
+        xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Thymeleaf</title>
+</head>
+<body>
+<h2>추천 노래</h2>
+    <p>제목: <span th:text="${song.title}">노래</span></p>
+    <p>가수: <span th:text="${song.singer}">이름</span></p>
+</body>
+</html>
