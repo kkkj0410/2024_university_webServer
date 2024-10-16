@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html
+        lang="ko"
+        xmlns:th="http://www.thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>로또</title>
+</head>
+<body>
+<h3>행운의 번호</h3>
+    <th:block th:each = "n : ${numbers}">
+        <span th:text = "${n}"></span>
+    </th:block>
+</body>
+</html>
